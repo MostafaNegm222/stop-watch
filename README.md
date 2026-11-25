@@ -1,26 +1,43 @@
 # Stopwatch
 
+## 1. Description
+
 A stopwatch in the browser, built with vanilla HTML, CSS and JavaScript.
 
-## Features
+## 2. Technologies and Versions
 
-- Start and pause button, with a lap button and a reset button that appear once the timer is used.
-- Minutes, seconds and hundredths of a second display, updated with `setInterval`.
-- A recorded list of laps and a button to clear it.
-- An animated ring around the display while the timer runs.
+- HTML5, CSS3, vanilla JavaScript (no build step)
 
-## Files
+## 3. Requirements and Dependencies
 
+- A modern web browser
+- No packages to install
+
+## 4. Installation and Run Steps
+
+```bash
+git clone https://github.com/MostafaNegm222/stop-watch.git
+cd stop-watch
 ```
-├── index.html   # Markup
-├── style.css    # Layout and the ring animation
-└── main.js      # Timer, laps and button logic
-```
-
-## Run it
 
 Open `index.html` in a browser, or serve the folder with any static server.
 
-## Notes
+## 5. Environment Variables
 
-The timer counts with three separate intervals, so it can drift slightly over long runs. A more accurate version would compare against `Date.now()`.
+None required.
+
+## 6. Usage and Main Features
+
+- Start and pause button, with lap and reset buttons that appear once the timer is used.
+- Minutes, seconds and hundredths of a second display, updated with `setInterval`.
+- A recorded list of laps and a button to clear it.
+- An animated ring around the display while the timer runs.
+- Note: the timer counts with separate intervals, so it can drift slightly over long runs; a more accurate version would compare against `Date.now()`.
+
+## 7. Screenshots / Demo
+
+No live demo; open `index.html` locally.
+
+## 8. Running Tests
+
+No automated tests in this repo.
